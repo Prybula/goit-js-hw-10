@@ -80,7 +80,7 @@ function renderCountryCard(data) {
         return `
       <div>
         <img width="25px" src="${svg}" alt="${alt}">
-        <h2 style="display: inline">${official}</h2>
+        <h2 style="display: inline;">${official}</h2>
       </div>
       <p><b>Capital:</b> ${capital}</p>
       <p><b>Population:</b> ${population}</p>
