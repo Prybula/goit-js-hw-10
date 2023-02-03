@@ -63,7 +63,7 @@ function renderCountryList(data) {
       `;
   });
 
-  refs.countryList.innerHTML = markup;
+  refs.countryList.innerHTML = markup.join("");
 }
 
 function renderCountryCard(data) {
